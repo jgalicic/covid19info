@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-144644868-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-144644868-2")
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>COVID-19 Data</title>
+  </head>
+
+  <body>
+    <div id="pageContainer">
+      <div id="topHeader" class="row fixed-top bg-dark top-heading">
+        <div class="col-sm sliders">
+          <form>
+            <div class="form-group text-white text-center">
+              <input
+                type="range"
+                class="form-control-range"
+                id="dateSlider"
+                min="0"
+                max="150"
+                value="0"
+              />
+              <label for="dateSlider" id="date" class="text-white text-center">
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm">
+          <h3 id="covid19Title" class="text-white text-center">
+            COVID-19 Data
+          </h3>
+        </div>
+
+        <div id="zoomRangeSlider" class="col-sm sliders">
+          <form>
+            <div class="form-group text-white text-center">
+              <input
+                type="range"
+                class="form-control-range"
+                id="zoomSlider"
+                min="50"
+                max="500"
+                value="100"
+              />
+              <label id="zoom" for="zoomSlider">Zoom</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div id="casesHeading" class="text-center">
+        <span id="totalCases" style="color: steelblue"></span>
+        <span id="totalRecoveries" style="color: rgb(255, 196, 0)"></span>
+        <span id="totalDeaths" style="color: tomato"></span>
+      </div>
+
+      <p id="description" style="margin-bottom: 15px">
+        This is a visualization of the total number of reported COVID 19 cases,
+        recoveries and deaths per country. Data is updated every day. The actual
+        number of cases of COVID 19 may be much higher since testing has been
+        restricted in many places.
+      </p>
+
+      <div id="chart-area"></div>
+      <footer class="footer navbar-fixed-bottom">
+        <p class="text-center mb-0 pb-0">
+          © 2020 by
+          <a href="https://github.com/jgalicic/coronavirusinfo" target="_blank"
+            >Justin Galicic</a
+          >
+        </p>
+        <p class="text-center">
+          Source:
+          <a href="https://www.worldometers.info/coronavirus/" target="_blank"
+            >worldometers.info/coronavirus</a
+          >
+          and
+          <a
+            href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/"
+            >The World Health Organization</a
+          >
+        </p>
+        <br />
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
