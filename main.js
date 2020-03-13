@@ -16,6 +16,1233 @@ const isSafari =
 let data = [
   [
     {
+      date: "March 13, 2020",
+      country: "China",
+      cases: 80815,
+      todayCases: 22,
+      deaths: 3177,
+      todayDeaths: 8,
+      recovered: 64152,
+      critical: 4020
+    },
+    {
+      country: "Italy",
+      cases: 15113,
+      todayCases: 0,
+      deaths: 1016,
+      todayDeaths: 0,
+      recovered: 1258,
+      critical: 1153
+    },
+    {
+      country: "Iran",
+      cases: 11364,
+      todayCases: 1289,
+      deaths: 514,
+      todayDeaths: 85,
+      recovered: 3529,
+      critical: 0
+    },
+    {
+      country: "S. Korea",
+      cases: 7979,
+      todayCases: 110,
+      deaths: 71,
+      todayDeaths: 5,
+      recovered: 510,
+      critical: 93
+    },
+    {
+      country: "Spain",
+      cases: 4334,
+      todayCases: 1188,
+      deaths: 122,
+      todayDeaths: 36,
+      recovered: 193,
+      critical: 190
+    },
+    {
+      country: "Germany",
+      cases: 3117,
+      todayCases: 372,
+      deaths: 7,
+      todayDeaths: 1,
+      recovered: 46,
+      critical: 9
+    },
+    {
+      country: "France",
+      cases: 2876,
+      todayCases: 0,
+      deaths: 61,
+      todayDeaths: 0,
+      recovered: 12,
+      critical: 129
+    },
+    {
+      country: "USA",
+      cases: 1832,
+      todayCases: 135,
+      deaths: 41,
+      todayDeaths: 0,
+      recovered: 31,
+      critical: 10
+    },
+    {
+      country: "Switzerland",
+      cases: 1135,
+      todayCases: 267,
+      deaths: 7,
+      todayDeaths: 0,
+      recovered: 4,
+      critical: 0
+    },
+    {
+      country: "Norway",
+      cases: 898,
+      todayCases: 98,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 27
+    },
+    {
+      country: "Sweden",
+      cases: 810,
+      todayCases: 123,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 2
+    },
+    {
+      country: "Netherlands",
+      cases: 804,
+      todayCases: 190,
+      deaths: 10,
+      todayDeaths: 5,
+      recovered: 2,
+      critical: 1
+    },
+    {
+      country: "UK",
+      cases: 798,
+      todayCases: 208,
+      deaths: 10,
+      todayDeaths: 0,
+      recovered: 18,
+      critical: 20
+    },
+    {
+      country: "Denmark",
+      cases: 788,
+      todayCases: 114,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 2
+    },
+    {
+      country: "Japan",
+      cases: 701,
+      todayCases: 10,
+      deaths: 19,
+      todayDeaths: 0,
+      recovered: 118,
+      critical: 29
+    },
+    {
+      country: "Diamond Princess",
+      cases: 696,
+      todayCases: 0,
+      deaths: 7,
+      todayDeaths: 0,
+      recovered: 325,
+      critical: 32
+    },
+    {
+      country: "Belgium",
+      cases: 556,
+      todayCases: 157,
+      deaths: 3,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 2
+    },
+    {
+      country: "Austria",
+      cases: 504,
+      todayCases: 143,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 6,
+      critical: 1
+    },
+    {
+      country: "Qatar",
+      cases: 262,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Bahrain",
+      cases: 210,
+      todayCases: 13,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 44,
+      critical: 1
+    },
+    {
+      country: "Singapore",
+      cases: 200,
+      todayCases: 13,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 97,
+      critical: 11
+    },
+    {
+      country: "Australia",
+      cases: 199,
+      todayCases: 43,
+      deaths: 3,
+      todayDeaths: 0,
+      recovered: 26,
+      critical: 1
+    },
+    {
+      country: "Malaysia",
+      cases: 197,
+      todayCases: 39,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 32,
+      critical: 4
+    },
+    {
+      country: "Canada",
+      cases: 158,
+      todayCases: 16,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 11,
+      critical: 1
+    },
+    {
+      country: "Finland",
+      cases: 155,
+      todayCases: 46,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Brazil",
+      cases: 151,
+      todayCases: 74,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 2
+    },
+    {
+      country: "Slovenia",
+      cases: 141,
+      todayCases: 45,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 4
+    },
+    {
+      country: "Hong Kong",
+      cases: 132,
+      todayCases: 1,
+      deaths: 4,
+      todayDeaths: 1,
+      recovered: 77,
+      critical: 4
+    },
+    {
+      country: "Israel",
+      cases: 126,
+      todayCases: 17,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 4,
+      critical: 2
+    },
+    {
+      country: "Czechia",
+      cases: 120,
+      todayCases: 4,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 2
+    },
+    {
+      country: "Greece",
+      cases: 117,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 2,
+      critical: 2
+    },
+    {
+      country: "Iceland",
+      cases: 117,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Portugal",
+      cases: 112,
+      todayCases: 34,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 1
+    },
+    {
+      country: "Kuwait",
+      cases: 100,
+      todayCases: 20,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 5,
+      critical: 4
+    },
+    {
+      country: "UAE",
+      cases: 85,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 20,
+      critical: 2
+    },
+    {
+      country: "Iraq",
+      cases: 83,
+      todayCases: 0,
+      deaths: 8,
+      todayDeaths: 0,
+      recovered: 24,
+      critical: 0
+    },
+    {
+      country: "India",
+      cases: 81,
+      todayCases: 7,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 4,
+      critical: 0
+    },
+    {
+      country: "San Marino",
+      cases: 80,
+      todayCases: 8,
+      deaths: 5,
+      todayDeaths: 0,
+      recovered: 2,
+      critical: 3
+    },
+    {
+      country: "Egypt",
+      cases: 80,
+      todayCases: 0,
+      deaths: 2,
+      todayDeaths: 0,
+      recovered: 27,
+      critical: 0
+    },
+    {
+      country: "Romania",
+      cases: 79,
+      todayCases: 20,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 7,
+      critical: 1
+    },
+    {
+      country: "Lebanon",
+      cases: 77,
+      todayCases: 9,
+      deaths: 3,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 3
+    },
+    {
+      country: "Thailand",
+      cases: 75,
+      todayCases: 5,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 35,
+      critical: 1
+    },
+    {
+      country: "Ireland",
+      cases: 70,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 6
+    },
+    {
+      country: "Indonesia",
+      cases: 69,
+      todayCases: 35,
+      deaths: 4,
+      todayDeaths: 3,
+      recovered: 5,
+      critical: 0
+    },
+    {
+      country: "Philippines",
+      cases: 64,
+      todayCases: 12,
+      deaths: 5,
+      todayDeaths: 0,
+      recovered: 2,
+      critical: 1
+    },
+    {
+      country: "Poland",
+      cases: 64,
+      todayCases: 13,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 3
+    },
+    {
+      country: "Saudi Arabia",
+      cases: 62,
+      todayCases: 17,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Taiwan",
+      cases: 50,
+      todayCases: 1,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 20,
+      critical: 0
+    },
+    {
+      country: "Russia",
+      cases: 45,
+      todayCases: 11,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 8,
+      critical: 0
+    },
+    {
+      country: "Vietnam",
+      cases: 44,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 16,
+      critical: 0
+    },
+    {
+      country: "Estonia",
+      cases: 41,
+      todayCases: 14,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Brunei",
+      cases: 37,
+      todayCases: 12,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Palestine",
+      cases: 35,
+      todayCases: 4,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Albania",
+      cases: 33,
+      todayCases: 10,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Chile",
+      cases: 33,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Argentina",
+      cases: 31,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Croatia",
+      cases: 31,
+      todayCases: 4,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Serbia",
+      cases: 31,
+      todayCases: 7,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Slovakia",
+      cases: 30,
+      todayCases: 9,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Peru",
+      cases: 28,
+      todayCases: 6,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Panama",
+      cases: 27,
+      todayCases: 13,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Algeria",
+      cases: 26,
+      todayCases: 0,
+      deaths: 2,
+      todayDeaths: 0,
+      recovered: 10,
+      critical: 0
+    },
+    {
+      country: "Luxembourg",
+      cases: 26,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Georgia",
+      cases: 25,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "South Africa",
+      cases: 24,
+      todayCases: 8,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Bulgaria",
+      cases: 23,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Costa Rica",
+      cases: 23,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Pakistan",
+      cases: 22,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 2,
+      critical: 0
+    },
+    {
+      country: "Belarus",
+      cases: 21,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 3,
+      critical: 0
+    },
+    {
+      country: "Ecuador",
+      cases: 19,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Oman",
+      cases: 19,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 9,
+      critical: 0
+    },
+    {
+      country: "Hungary",
+      cases: 19,
+      todayCases: 3,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Latvia",
+      cases: 17,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Azerbaijan",
+      cases: 15,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 3,
+      critical: 0
+    },
+    {
+      country: "North Macedonia",
+      cases: 14,
+      todayCases: 5,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Cyprus",
+      cases: 14,
+      todayCases: 4,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Tunisia",
+      cases: 13,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 2
+    },
+    {
+      country: "Bosnia and Herzegovina",
+      cases: 13,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Colombia",
+      cases: 13,
+      todayCases: 4,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Mexico",
+      cases: 12,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 4,
+      critical: 1
+    },
+    {
+      country: "Malta",
+      cases: 12,
+      todayCases: 3,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Macao",
+      cases: 10,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 10,
+      critical: 0
+    },
+    {
+      country: "Senegal",
+      cases: 10,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 2,
+      critical: 0
+    },
+    {
+      country: "Maldives",
+      cases: 9,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Armenia",
+      cases: 8,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Jamaica",
+      cases: 8,
+      todayCases: 6,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Morocco",
+      cases: 7,
+      todayCases: 1,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Afghanistan",
+      cases: 7,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Cambodia",
+      cases: 7,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Lithuania",
+      cases: 6,
+      todayCases: 3,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "French Guiana",
+      cases: 6,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Moldova",
+      cases: 6,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Paraguay",
+      cases: 6,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 1
+    },
+    {
+      country: "Dominican Republic",
+      cases: 5,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "New Zealand",
+      cases: 5,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Sri Lanka",
+      cases: 5,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Réunion",
+      cases: 5,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Liechtenstein",
+      cases: 4,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Ukraine",
+      cases: 3,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 1,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Bangladesh",
+      cases: 3,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Bolivia",
+      cases: 3,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Channel Islands",
+      cases: 3,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Cuba",
+      cases: 3,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Faeroe Islands",
+      cases: 3,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "French Polynesia",
+      cases: 3,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Martinique",
+      cases: 3,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Monaco",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Nigeria",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Burkina Faso",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Cameroon",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "DRC",
+      cases: 2,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Ghana",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Honduras",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Kazakhstan",
+      cases: 2,
+      todayCases: 2,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Saint Martin",
+      cases: 2,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Turkey",
+      cases: 2,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Guyana",
+      cases: 1,
+      todayCases: 0,
+      deaths: 1,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Sudan",
+      cases: 1,
+      todayCases: 1,
+      deaths: 1,
+      todayDeaths: 1,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Andorra",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Jordan",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Nepal",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Bhutan",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Cayman Islands",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Ivory Coast",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Ethiopia",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Gabon",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Gibraltar",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 1,
+      critical: 0
+    },
+    {
+      country: "Guadeloupe",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Guinea",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Vatican City",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Kenya",
+      cases: 1,
+      todayCases: 1,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Mongolia",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "St. Barth",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "St. Vincent Grenadines",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Togo",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    },
+    {
+      country: "Trinidad and Tobago",
+      cases: 1,
+      todayCases: 0,
+      deaths: 0,
+      todayDeaths: 0,
+      recovered: 0,
+      critical: 0
+    }
+  ],
+  [
+    {
       date: "March 12, 2020",
       country: "China",
       cases: 80796,
@@ -6018,25 +7245,35 @@ let svgHeight = (1 / actuator) * 260000
 drawVisualization()
 
 // Zoom Slider
+
 zoomSlider.oninput = function() {
-  console.log("Z", zoomSlider.value)
-  console.log("D", dateSlider.value)
-  console.log("T", this.value)
-  console.log("!", 1 / actuator)
+  // if (this.value % 10 === 0) {
+  //   console.log(
+  //     `A ${actuator} | H ${svgHeight} | D ${dateSlider.value} | Z ${zoomSlider.value}`
+  //   )
+  // }
 
   actuator = Math.floor((1 / (this.value * 5)) * totalCases) + 0.1
 
   d3.select("svg").remove()
 
-  svgHeight = (1 / actuator) * totalCases * 2
+  if (date.value < 100) {
+    actuator = Math.floor(actuator * 2 + dateSlider.value)
+  }
+
+  svgHeight = Math.floor((1 / actuator) * totalCases * 2)
+
   drawVisualization()
-  window.scrollTo(0, document.body.scrollHeight)
+
+  if (this.value < 58) {
+    window.scrollTo(0, 0)
+  } else {
+    window.scrollTo(0, document.body.scrollHeight)
+  }
 }
 
 // Date Slider
 dateSlider.oninput = function() {
-  console.log("Z", zoomSlider.value)
-  console.log("D", dateSlider.value)
   let maxRangeValue = 150 // (from line 83 in index.html)
   let divisor = (maxRangeValue + 1) / data.length
   let actuatedIndex = Math.floor(this.value / divisor)
@@ -6068,9 +7305,20 @@ dateSlider.oninput = function() {
   document.getElementById("date").appendChild(viewDate)
 
   d3.select("svg").remove()
-  svgHeight = (1 / actuator) * totalCases * 2.1
+
+  svgHeight = Math.floor((1 / actuator) * totalCases * 2.1)
+
+  // if (this.value % 10 === 0) {
+  //   console.log(
+  //     `A ${actuator} | H ${svgHeight} | D ${dateSlider.value} | Z ${zoomSlider.value}`
+  //   )
+  // }
+
   drawVisualization()
-  window.scrollTo(0, document.body.scrollHeight)
+
+  if (zoomSlider.value > 125) {
+    window.scrollTo(0, document.body.scrollHeight)
+  }
 }
 
 function drawVisualization() {
