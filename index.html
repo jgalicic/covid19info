@@ -37,7 +37,7 @@
   <body>
     <div id="pageContainer">
       <div id="topHeader" class="row fixed-top bg-dark top-heading">
-        <div class="col-sm sliders">
+        <div class="col sliders">
           <form>
             <div class="form-group text-white text-center">
               <input
@@ -53,13 +53,29 @@
             </div>
           </form>
         </div>
-        <div class="col-sm">
+        <div class="col-6">
           <h3 id="covid19Title" class="text-white text-center">
             COVID-19 Data
           </h3>
+          <div id="casesHeading" class="text-center">
+            <div class="d-flex justify-content-center numberTotals">
+              <h6 id="wwCases" style="color: steelblue; display: inline">
+                Worldwide Cases:
+              </h6>
+              <h6 style="color: rgb(255, 196, 0); display: inline">
+                Recoveries:
+              </h6>
+              <h6 style="color: tomato; display: inline">Deaths:</h6>
+            </div>
+            <div class="d-flex justify-content-center numberTotals">
+              <span id="totalCases" style="color: steelblue"></span>
+              <span id="totalRecoveries" style="color: rgb(255, 196, 0)"></span>
+              <span id="totalDeaths" style="color: tomato"></span>
+            </div>
+          </div>
         </div>
 
-        <div id="zoomRangeSlider" class="col-sm sliders">
+        <div id="zoomRangeSlider" class="col sliders">
           <form>
             <div class="form-group text-white text-center">
               <input
@@ -67,7 +83,7 @@
                 class="form-control-range"
                 id="zoomSlider"
                 min="50"
-                max="200"
+                max="300"
                 value="80"
               />
               <label id="zoom" for="zoomSlider">Zoom</label>
@@ -78,16 +94,9 @@
       <br />
       <br />
 
-      <div id="casesHeading" class="text-center">
-        <span id="totalCases" style="color: steelblue"></span>
-        <span id="totalRecoveries" style="color: rgb(255, 196, 0)"></span>
-        <span id="totalDeaths" style="color: tomato"></span>
-      </div>
-
-      <p id="description" style="margin-bottom: 15px">
-        This visualization shows the growth of the total number of reported
-        COVID 19 cases, recoveries and deaths per country starting from December
-        31, 2019.
+      <p id="description" style="margin-bottom: 15px" class="text-center">
+        This visualization represents the total number of reported COVID-19
+        cases, recoveries and deaths per country.
       </p>
 
       <div id="chart-area"></div>
