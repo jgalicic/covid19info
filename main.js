@@ -2077,6 +2077,8 @@ function drawVisualization() {
     .attr("font-size", (d, i) => {
       if (i === 0) {
         return radData[i] / 4.2
+      } else if (i === 1) {
+        return radData[i] / 2
       } else if (i < 4) {
         return radData[i] / 1.3
       } else {
@@ -2113,11 +2115,13 @@ function drawVisualization() {
     .attr("font-family", countryDataFont)
     .attr("font-size", (d, i) => {
       if (i === 0) {
-        return radData[i] / 24
+        return radData[i] / 15
+      } else if (i === 1) {
+        return radData[i] / 5
       } else if (i < 4) {
         return radData[i] / 3
       } else {
-        return radData[i] / 1.5
+        return radData[i] / 2
       }
     })
     .attr("x", (d, i) => {
