@@ -29,10 +29,10 @@ let data = [
       deaths: 3270,
       recovered: 72703
     },
-    { country: "Italy", cases: 59138, deaths: 5476, recovered: 7024 },
-    { country: "USA", cases: 40747, deaths: 479, recovered: 187 },
+    { country: "Italy", cases: 63928, deaths: 6078, recovered: 7432 },
+    { country: "USA", cases: 40855, deaths: 483, recovered: 187 },
     { country: "Spain", cases: 33089, deaths: 2206, recovered: 3355 },
-    { country: "Germany", cases: 27558, deaths: 115, recovered: 422 },
+    { country: "Germany", cases: 28798, deaths: 116, recovered: 422 },
     { country: "Iran", cases: 23049, deaths: 1812, recovered: 8376 },
     { country: "France", cases: 16689, deaths: 674, recovered: 2200 },
     { country: "S. Korea", cases: 8961, deaths: 111, recovered: 3166 },
