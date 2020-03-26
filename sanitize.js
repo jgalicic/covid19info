@@ -2,7 +2,7 @@
 let data2 = data.map((d, i) => {
   if (d.cases > 1)
     return {
-      country: d.country,
+      country: d.country.split(",")[0],
       cases: d.cases,
       deaths: d.deaths,
       recovered: d.recovered
