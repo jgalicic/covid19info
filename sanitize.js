@@ -13,6 +13,14 @@ let filtered = data2.filter(function(el) {
   return el != null
 })
 
+// Sort data
+
+function compare(a, b) {
+  return b.cases - a.cases
+}
+
+filtered.sort(compare)
+
 const fs = require("fs")
 
 fs.writeFileSync("./data.json", JSON.stringify(filtered, null, 0), "utf-8")
