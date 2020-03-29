@@ -3631,7 +3631,7 @@ function drawVisualization() {
     .attr("dy", (d, i) => {
       if (isSafari) {
         if (i === 0) {
-          return (radData[i] * -0.05).toFixed(1)
+          return (radData[i] * -0.15).toFixed(1)
         } else if (i < 7) {
           return (radData[i] * -0.2).toFixed(1)
         } else {
