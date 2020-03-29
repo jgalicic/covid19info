@@ -1,6 +1,14 @@
 // Sanitize data
 let data2 = data.map((d, i) => {
-  if (d.cases > 1)
+  if (d.cases > 4 && d.country == "Lao People's Democratic Republic")
+    return {
+      country: "Laos",
+      cases: d.cases,
+      deaths: d.deaths,
+      recovered: d.recovered
+    }
+
+  if (d.cases > 4)
     return {
       country: d.country.split(",")[0],
       cases: d.cases,

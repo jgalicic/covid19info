@@ -25,57 +25,57 @@ let data = [
       dateInfo: { month: "March", day: 28, year: 2020 },
       date: "March 28, 2020",
       country: "USA",
-      cases: 116057,
-      deaths: 1937,
-      recovered: 3224
+      cases: 121066,
+      deaths: 2020,
+      recovered: 3231
     },
     { country: "Italy", cases: 92472, deaths: 10023, recovered: 12384 },
     { country: "China", cases: 81394, deaths: 3295, recovered: 74971 },
-    { country: "Spain", cases: 72248, deaths: 5812, recovered: 12285 },
-    { country: "Germany", cases: 56202, deaths: 403, recovered: 6658 },
+    { country: "Spain", cases: 73235, deaths: 5982, recovered: 12285 },
+    { country: "Germany", cases: 57695, deaths: 433, recovered: 8481 },
+    { country: "France", cases: 37575, deaths: 2314, recovered: 5700 },
     { country: "Iran", cases: 35408, deaths: 2517, recovered: 11679 },
-    { country: "France", cases: 32964, deaths: 1995, recovered: 5700 },
     { country: "UK", cases: 17089, deaths: 1019, recovered: 135 },
-    { country: "Switzerland", cases: 13377, deaths: 242, recovered: 1530 },
+    { country: "Switzerland", cases: 14076, deaths: 264, recovered: 1530 },
     { country: "Netherlands", cases: 9762, deaths: 639, recovered: 3 },
     { country: "S. Korea", cases: 9478, deaths: 144, recovered: 4811 },
     { country: "Belgium", cases: 9134, deaths: 353, recovered: 1063 },
-    { country: "Austria", cases: 8122, deaths: 68, recovered: 225 },
-    { country: "Turkey", cases: 7402, deaths: 108, recovered: 42 },
-    { country: "Canada", cases: 5434, deaths: 55, recovered: 354 },
+    { country: "Austria", cases: 8271, deaths: 68, recovered: 225 },
+    { country: "Turkey", cases: 7402, deaths: 108, recovered: 70 },
+    { country: "Canada", cases: 5576, deaths: 60, recovered: 396 },
     { country: "Portugal", cases: 5170, deaths: 100, recovered: 43 },
-    { country: "Norway", cases: 3977, deaths: 20, recovered: 7 },
+    { country: "Norway", cases: 4015, deaths: 23, recovered: 7 },
+    { country: "Brazil", cases: 3904, deaths: 111, recovered: 6 },
     { country: "Australia", cases: 3635, deaths: 14, recovered: 170 },
-    { country: "Brazil", cases: 3477, deaths: 93, recovered: 6 },
-    { country: "Israel", cases: 3460, deaths: 12, recovered: 89 },
+    { country: "Israel", cases: 3619, deaths: 12, recovered: 89 },
     { country: "Sweden", cases: 3447, deaths: 105, recovered: 16 },
-    { country: "Czechia", cases: 2541, deaths: 11, recovered: 11 },
+    { country: "Czechia", cases: 2631, deaths: 11, recovered: 11 },
     { country: "Ireland", cases: 2415, deaths: 36, recovered: 5 },
     { country: "Malaysia", cases: 2320, deaths: 27, recovered: 320 },
     { country: "Denmark", cases: 2201, deaths: 65, recovered: 1 },
     { country: "Chile", cases: 1909, deaths: 6, recovered: 61 },
     { country: "Luxembourg", cases: 1831, deaths: 18, recovered: 40 },
     { country: "Ecuador", cases: 1823, deaths: 48, recovered: 3 },
-    { country: "Japan", cases: 1499, deaths: 49, recovered: 404 },
-    { country: "Poland", cases: 1481, deaths: 17, recovered: 7 },
-    { country: "Romania", cases: 1452, deaths: 30, recovered: 139 },
-    { country: "Pakistan", cases: 1420, deaths: 12, recovered: 29 },
+    { country: "Japan", cases: 1693, deaths: 52, recovered: 404 },
+    { country: "Poland", cases: 1638, deaths: 18, recovered: 7 },
+    { country: "Pakistan", cases: 1495, deaths: 12, recovered: 29 },
+    { country: "Romania", cases: 1452, deaths: 35, recovered: 139 },
     { country: "Russia", cases: 1264, deaths: 4, recovered: 49 },
     { country: "Thailand", cases: 1245, deaths: 6, recovered: 97 },
     { country: "Saudi Arabia", cases: 1203, deaths: 4, recovered: 37 },
-    { country: "South Africa", cases: 1170, deaths: 2, recovered: 31 },
+    { country: "South Africa", cases: 1187, deaths: 1, recovered: 31 },
     { country: "Finland", cases: 1167, deaths: 9, recovered: 10 },
     { country: "Indonesia", cases: 1155, deaths: 102, recovered: 59 },
     { country: "Philippines", cases: 1075, deaths: 68, recovered: 35 },
     { country: "Greece", cases: 1061, deaths: 32, recovered: 52 },
+    { country: "India", cases: 987, deaths: 24, recovered: 84 },
     { country: "Iceland", cases: 963, deaths: 2, recovered: 114 },
-    { country: "India", cases: 933, deaths: 20, recovered: 84 },
     { country: "Singapore", cases: 802, deaths: 2, recovered: 198 },
     { country: "Panama", cases: 786, deaths: 14, recovered: 2 },
     { country: "Dominican Republic", cases: 719, deaths: 28, recovered: 3 },
     { country: "Mexico", cases: 717, deaths: 12, recovered: 4 },
     { country: "Diamond Princess", cases: 712, deaths: 10, recovered: 597 },
-    { country: "Argentina", cases: 690, deaths: 17, recovered: 72 },
+    { country: "Argentina", cases: 690, deaths: 18, recovered: 72 },
     { country: "Slovenia", cases: 684, deaths: 9, recovered: 10 },
     { country: "Peru", cases: 671, deaths: 16, recovered: 16 },
     { country: "Serbia", cases: 659, deaths: 10, recovered: 42 },
@@ -88,91 +88,91 @@ let data = [
     { country: "Iraq", cases: 506, deaths: 42, recovered: 131 },
     { country: "Bahrain", cases: 476, deaths: 4, recovered: 265 },
     { country: "UAE", cases: 468, deaths: 2, recovered: 52 },
-    { country: "Algeria", cases: 454, deaths: 29, recovered: 29 },
+    { country: "Algeria", cases: 454, deaths: 29, recovered: 31 },
     { country: "New Zealand", cases: 451, deaths: 0, recovered: 50 },
-    { country: "Lebanon", cases: 412, deaths: 8, recovered: 27 },
+    { country: "Lebanon", cases: 412, deaths: 8, recovered: 30 },
     { country: "Armenia", cases: 407, deaths: 1, recovered: 30 },
-    { country: "Lithuania", cases: 382, deaths: 5, recovered: 1 },
-    { country: "Morocco", cases: 359, deaths: 24, recovered: 11 },
+    { country: "Lithuania", cases: 394, deaths: 7, recovered: 1 },
+    { country: "Morocco", cases: 390, deaths: 25, recovered: 11 },
+    { country: "Ukraine", cases: 356, deaths: 9, recovered: 5 },
     { country: "Hungary", cases: 343, deaths: 11, recovered: 34 },
-    { country: "Bulgaria", cases: 331, deaths: 6, recovered: 11 },
-    { country: "Ukraine", cases: 311, deaths: 8, recovered: 5 },
+    { country: "Bulgaria", cases: 331, deaths: 7, recovered: 11 },
     { country: "Andorra", cases: 308, deaths: 3, recovered: 1 },
     { country: "Latvia", cases: 305, deaths: 0, recovered: 1 },
+    { country: "Costa Rica", cases: 295, deaths: 2, recovered: 3 },
     { country: "Slovakia", cases: 292, deaths: 0, recovered: 2 },
     { country: "Taiwan", cases: 283, deaths: 2, recovered: 30 },
+    { country: "Tunisia", cases: 278, deaths: 8, recovered: 2 },
     { country: "Uruguay", cases: 274, deaths: 0, recovered: 0 },
-    { country: "Costa Rica", cases: 263, deaths: 2, recovered: 3 },
-    { country: "Bosnia", cases: 258, deaths: 5, recovered: 5 },
+    { country: "Bosnia and Herzegovina", cases: 258, deaths: 5, recovered: 5 },
     { country: "Jordan", cases: 246, deaths: 1, recovered: 18 },
-    { country: "Macedonia", cases: 241, deaths: 4, recovered: 3 },
+    { country: "North Macedonia", cases: 241, deaths: 4, recovered: 3 },
     { country: "Kuwait", cases: 235, deaths: 0, recovered: 64 },
     { country: "Moldova", cases: 231, deaths: 2, recovered: 2 },
     { country: "Kazakhstan", cases: 228, deaths: 1, recovered: 16 },
-    { country: "Tunisia", cases: 227, deaths: 7, recovered: 2 },
-    { country: "San Marino", cases: 223, deaths: 21, recovered: 6 },
+    { country: "San Marino", cases: 224, deaths: 22, recovered: 6 },
     { country: "Burkina Faso", cases: 207, deaths: 11, recovered: 21 },
     { country: "Albania", cases: 197, deaths: 10, recovered: 31 },
+    { country: "Réunion", cases: 183, deaths: 0, recovered: 1 },
     { country: "Azerbaijan", cases: 182, deaths: 4, recovered: 15 },
     { country: "Cyprus", cases: 179, deaths: 5, recovered: 15 },
     { country: "Vietnam", cases: 174, deaths: 0, recovered: 21 },
-    { country: "Faroe Islands", cases: 155, deaths: 0, recovered: 54 },
+    { country: "Faeroe Islands", cases: 155, deaths: 0, recovered: 54 },
     { country: "Oman", cases: 152, deaths: 0, recovered: 23 },
     { country: "Malta", cases: 149, deaths: 0, recovered: 2 },
-    { country: "Réunion", cases: 145, deaths: 0, recovered: 1 },
     { country: "Ghana", cases: 141, deaths: 5, recovered: 2 },
     { country: "Senegal", cases: 130, deaths: 0, recovered: 18 },
     { country: "Brunei", cases: 120, deaths: 1, recovered: 25 },
     { country: "Cuba", cases: 119, deaths: 3, recovered: 4 },
-    { country: "Venezuela", cases: 113, deaths: 2, recovered: 39 },
+    { country: "Venezuela", cases: 119, deaths: 2, recovered: 39 },
     { country: "Sri Lanka", cases: 113, deaths: 1, recovered: 9 },
     { country: "Afghanistan", cases: 110, deaths: 4, recovered: 2 },
     { country: "Uzbekistan", cases: 104, deaths: 2, recovered: 5 },
+    { country: "Guadeloupe", cases: 102, deaths: 2, recovered: 17 },
     { country: "Mauritius", cases: 102, deaths: 2, recovered: 0 },
-    { country: "Côte d'Ivoire", cases: 101, deaths: 0, recovered: 3 },
+    { country: "Ivory Coast", cases: 101, deaths: 0, recovered: 3 },
     { country: "Cambodia", cases: 99, deaths: 0, recovered: 13 },
-    { country: "Palestinian Territory", cases: 97, deaths: 1, recovered: 18 },
-    { country: "Guadeloupe", cases: 96, deaths: 2, recovered: 17 },
+    { country: "Palestine", cases: 98, deaths: 1, recovered: 18 },
+    { country: "Channel Islands", cases: 97, deaths: 1, recovered: 0 },
     { country: "Honduras", cases: 95, deaths: 1, recovered: 3 },
     { country: "Belarus", cases: 94, deaths: 0, recovered: 32 },
     { country: "Martinique", cases: 93, deaths: 1, recovered: 0 },
     { country: "Cameroon", cases: 91, deaths: 2, recovered: 2 },
     { country: "Georgia", cases: 90, deaths: 0, recovered: 14 },
     { country: "Nigeria", cases: 89, deaths: 1, recovered: 3 },
-    { country: "Channel Islands", cases: 88, deaths: 1, recovered: 0 },
     { country: "Montenegro", cases: 82, deaths: 1, recovered: 0 },
-    { country: "Trinidad and Tobago", cases: 74, deaths: 2, recovered: 1 },
+    { country: "Trinidad and Tobago", cases: 74, deaths: 3, recovered: 1 },
     { country: "Bolivia", cases: 74, deaths: 0, recovered: 0 },
+    { country: "DRC", cases: 65, deaths: 6, recovered: 2 },
     { country: "Mayotte", cases: 63, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 58, deaths: 6, recovered: 2 },
+    { country: "Rwanda", cases: 60, deaths: 0, recovered: 0 },
     { country: "Kyrgyzstan", cases: 58, deaths: 0, recovered: 0 },
     { country: "Paraguay", cases: 56, deaths: 3, recovered: 1 },
     { country: "Gibraltar", cases: 56, deaths: 0, recovered: 14 },
     { country: "Liechtenstein", cases: 56, deaths: 0, recovered: 0 },
-    { country: "Rwanda", cases: 54, deaths: 0, recovered: 0 },
     { country: "Bangladesh", cases: 48, deaths: 5, recovered: 15 },
     { country: "Aruba", cases: 46, deaths: 0, recovered: 1 },
     { country: "Monaco", cases: 42, deaths: 0, recovered: 1 },
     { country: "Kenya", cases: 38, deaths: 1, recovered: 1 },
+    { country: "Guatemala", cases: 34, deaths: 1, recovered: 10 },
     { country: "Macao", cases: 34, deaths: 0, recovered: 10 },
-    { country: "Guatemala", cases: 32, deaths: 1, recovered: 4 },
     { country: "Isle of Man", cases: 32, deaths: 0, recovered: 0 },
     { country: "Jamaica", cases: 30, deaths: 1, recovered: 2 },
     { country: "French Polynesia", cases: 30, deaths: 0, recovered: 0 },
+    { country: "Uganda", cases: 30, deaths: 0, recovered: 0 },
     { country: "French Guiana", cases: 28, deaths: 0, recovered: 6 },
     { country: "Zambia", cases: 28, deaths: 0, recovered: 0 },
     { country: "Barbados", cases: 26, deaths: 0, recovered: 0 },
     { country: "Madagascar", cases: 26, deaths: 0, recovered: 0 },
     { country: "Togo", cases: 25, deaths: 1, recovered: 1 },
-    { country: "Uganda", cases: 23, deaths: 0, recovered: 0 },
     { country: "El Salvador", cases: 19, deaths: 0, recovered: 0 },
     { country: "Mali", cases: 18, deaths: 0, recovered: 0 },
     { country: "Bermuda", cases: 17, deaths: 0, recovered: 2 },
     { country: "Ethiopia", cases: 16, deaths: 0, recovered: 1 },
     { country: "Maldives", cases: 16, deaths: 0, recovered: 9 },
     { country: "New Caledonia", cases: 15, deaths: 0, recovered: 0 },
-    { country: "Tanzania", cases: 13, deaths: 0, recovered: 1 },
-    { country: "Djibouti", cases: 12, deaths: 0, recovered: 0 },
+    { country: "Djibouti", cases: 14, deaths: 0, recovered: 0 },
+    { country: "Tanzania", cases: 14, deaths: 0, recovered: 1 },
     { country: "Equatorial Guinea", cases: 12, deaths: 0, recovered: 0 },
     { country: "Mongolia", cases: 12, deaths: 0, recovered: 0 },
     { country: "Dominica", cases: 11, deaths: 0, recovered: 0 },
@@ -180,62 +180,34 @@ let data = [
     { country: "Niger", cases: 10, deaths: 1, recovered: 0 },
     { country: "Bahamas", cases: 10, deaths: 0, recovered: 1 },
     { country: "Greenland", cases: 10, deaths: 0, recovered: 2 },
-    { country: "Swaziland", cases: 9, deaths: 0, recovered: 0 },
+    { country: "Eswatini", cases: 9, deaths: 0, recovered: 0 },
     { country: "Cayman Islands", cases: 8, deaths: 1, recovered: 0 },
-    { country: "Curacao", cases: 8, deaths: 1, recovered: 2 },
+    { country: "Curaçao", cases: 8, deaths: 1, recovered: 2 },
+    { country: "Guyana", cases: 8, deaths: 1, recovered: 0 },
     { country: "Guinea", cases: 8, deaths: 0, recovered: 0 },
     { country: "Haiti", cases: 8, deaths: 0, recovered: 0 },
+    { country: "Laos", cases: 8, deaths: 0, recovered: 0 },
     { country: "Mozambique", cases: 8, deaths: 0, recovered: 0 },
     { country: "Myanmar", cases: 8, deaths: 0, recovered: 0 },
     { country: "Namibia", cases: 8, deaths: 0, recovered: 2 },
+    { country: "Seychelles", cases: 8, deaths: 0, recovered: 0 },
     { country: "Suriname", cases: 8, deaths: 0, recovered: 0 },
     { country: "Gabon", cases: 7, deaths: 1, recovered: 0 },
     { country: "Zimbabwe", cases: 7, deaths: 1, recovered: 0 },
     { country: "Antigua and Barbuda", cases: 7, deaths: 0, recovered: 0 },
     { country: "Grenada", cases: 7, deaths: 0, recovered: 0 },
-    { country: "Seychelles", cases: 7, deaths: 0, recovered: 0 },
     { country: "Benin", cases: 6, deaths: 0, recovered: 0 },
     { country: "Eritrea", cases: 6, deaths: 0, recovered: 0 },
-    {
-      country: "Holy See (Vatican City State)",
-      cases: 6,
-      deaths: 0,
-      recovered: 0
-    },
-    {
-      country: "Lao People's Democratic Republic",
-      cases: 6,
-      deaths: 0,
-      recovered: 0
-    },
+    { country: "Vatican City", cases: 6, deaths: 0, recovered: 0 },
     { country: "Cabo Verde", cases: 5, deaths: 1, recovered: 0 },
-    { country: "Guyana", cases: 5, deaths: 1, recovered: 0 },
     { country: "Sudan", cases: 5, deaths: 1, recovered: 0 },
     { country: "Nepal", cases: 5, deaths: 0, recovered: 1 },
+    { country: "Angola", cases: 5, deaths: 0, recovered: 0 },
     { country: "Fiji", cases: 5, deaths: 0, recovered: 0 },
     { country: "Mauritania", cases: 5, deaths: 0, recovered: 0 },
     { country: "Montserrat", cases: 5, deaths: 0, recovered: 0 },
     { country: "St. Barth", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Angola", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Gambia", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Bhutan", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Central African Republic", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Chad", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Libyan Arab Jamahiriya", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Sint Maarten", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Somalia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "MS Zaandam", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Anguilla", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Belize", cases: 2, deaths: 0, recovered: 0 },
-    { country: "British Virgin Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea-Bissau", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Kitts and Nevis", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Turks and Caicos Islands", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Syria", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -411,12 +383,7 @@ let data = [
     { country: "Seychelles", cases: 7, deaths: 0, recovered: 0 },
     { country: "Benin", cases: 6, deaths: 0, recovered: 0 },
     { country: "Eritrea", cases: 6, deaths: 0, recovered: 0 },
-    {
-      country: "Lao People's Democratic Republic",
-      cases: 6,
-      deaths: 0,
-      recovered: 0
-    },
+    { country: "Laos", cases: 6, deaths: 0, recovered: 0 },
     { country: "Cabo Verde", cases: 5, deaths: 1, recovered: 0 },
     { country: "Guyana", cases: 5, deaths: 1, recovered: 0 },
     { country: "Zimbabwe", cases: 5, deaths: 1, recovered: 0 },
@@ -424,33 +391,7 @@ let data = [
     { country: "Montserrat", cases: 5, deaths: 0, recovered: 0 },
     { country: "Myanmar", cases: 5, deaths: 0, recovered: 0 },
     { country: "St. Barth", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Nepal", cases: 4, deaths: 0, recovered: 1 },
-    { country: "Angola", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 4, deaths: 0, recovered: 0 },
-    {
-      country: "Holy See (Vatican City State)",
-      cases: 4,
-      deaths: 0,
-      recovered: 0
-    },
-    { country: "Gambia", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Sudan", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Bhutan", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Central African Republic", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Chad", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Sint Maarten", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Somalia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Anguilla", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Belize", cases: 2, deaths: 0, recovered: 0 },
-    { country: "British Virgin Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea-Bissau", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Kitts and Nevis", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Turks and Caicos Islands", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -628,41 +569,7 @@ let data = [
     { country: "Bahamas", cases: 5, deaths: 0, recovered: 1 },
     { country: "Fiji", cases: 5, deaths: 0, recovered: 0 },
     { country: "Mozambique", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Cabo Verde", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Congo", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Eritrea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 4, deaths: 0, recovered: 0 },
-    {
-      country: "Holy See (Vatican City State)",
-      cases: 4,
-      deaths: 0,
-      recovered: 0
-    },
-    { country: "Mali", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Swaziland", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Gambia", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Sudan", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Nepal", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Angola", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Antigua and Barbuda", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Central African Republic", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Chad", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Myanmar", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sint Maarten", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Belize", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "British Virgin Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea-Bissau", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Montserrat", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Kitts and Nevis", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Somalia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -859,45 +766,7 @@ let data = [
     { country: "Bahamas", cases: 5, deaths: 0, recovered: 1 },
     { country: "Fiji", cases: 5, deaths: 0, recovered: 0 },
     { country: "Mozambique", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Cabo Verde", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Congo", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Eritrea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 4, deaths: 0, recovered: 0 },
-    {
-      country: "Holy See (Vatican City State)",
-      cases: 4,
-      deaths: 0,
-      recovered: 0
-    },
-    { country: "Swaziland", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Gambia", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Sudan", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Nepal", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Angola", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Antigua and Barbuda", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Central African Republic", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Chad", cases: 3, deaths: 0, recovered: 0 },
-    {
-      country: "Lao People's Democratic Republic",
-      cases: 3,
-      deaths: 0,
-      recovered: 0
-    },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Myanmar", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sint Maarten", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Belize", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "British Virgin Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea-Bissau", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mali", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Kitts and Nevis", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Syrian Arab Republic", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -1066,34 +935,7 @@ let data = [
     { country: "Guyana", cases: 5, deaths: 1, recovered: 0 },
     { country: "Bahamas", cases: 5, deaths: 0, recovered: 1 },
     { country: "El Salvador", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 5, deaths: 0, recovered: 2 },
-    { country: "Congo", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Fiji", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Vatican City", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Eswatini", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cabo Verde", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Gambia", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Sudan", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Angola", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Antigua and Barbuda", cases: 3, deaths: 0, recovered: 0 },
-    { country: "CAR", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Chad", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Djibouti", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mozambique", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Myanmar", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Niger", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nepal", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Laos", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Sint Maarten", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Greenland", cases: 5, deaths: 0, recovered: 2 }
   ],
   [
     {
@@ -1253,33 +1095,7 @@ let data = [
     { country: "Gabon", cases: 5, deaths: 1, recovered: 0 },
     { country: "Haiti", cases: 5, deaths: 0, recovered: 0 },
     { country: "Saint Martin", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Bahamas", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Eswatini", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cayman Islands", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Cabo Verde", cases: 3, deaths: 0, recovered: 0 },
-    { country: "CAR", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 3, deaths: 0, recovered: 0 },
-    { country: "El Salvador", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Fiji", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Gambia", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Nepal", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Angola", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Niger", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -1435,35 +1251,7 @@ let data = [
     { country: "Gabon", cases: 5, deaths: 1, recovered: 0 },
     { country: "Isle of Man", cases: 5, deaths: 0, recovered: 0 },
     { country: "Saint Martin", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Bahamas", cases: 4, deaths: 0, recovered: 0 },
-    { country: "New Caledonia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Eswatini", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cayman Islands", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Cabo Verde", cases: 3, deaths: 0, recovered: 0 },
-    { country: "CAR", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 3, deaths: 0, recovered: 0 },
-    { country: "El Salvador", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Madagascar", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Angola", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bermuda", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Fiji", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Haiti", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Niger", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -1618,34 +1406,7 @@ let data = [
     { country: "Gabon", cases: 5, deaths: 1, recovered: 0 },
     { country: "Aruba", cases: 5, deaths: 0, recovered: 1 },
     { country: "Saint Martin", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Bahamas", cases: 4, deaths: 0, recovered: 0 },
-    { country: "New Caledonia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cayman Islands", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Cabo Verde", cases: 3, deaths: 0, recovered: 0 },
-    { country: "CAR", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 3, deaths: 0, recovered: 0 },
-    { country: "El Salvador", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Madagascar", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Zimbabwe", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Angola", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bermuda", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Fiji", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Haiti", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Isle of Man", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nicaragua", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Suriname", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -1796,30 +1557,7 @@ let data = [
     { country: "Mongolia", cases: 6, deaths: 0, recovered: 0 },
     { country: "Tanzania", cases: 6, deaths: 0, recovered: 0 },
     { country: "Aruba", cases: 5, deaths: 0, recovered: 1 },
-    { country: "Barbados", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Suriname", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cayman Islands", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Gabon", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Bahamas", cases: 3, deaths: 0, recovered: 0 },
-    { country: "CAR", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Congo", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "U.S. Virgin Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bermuda", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guinea", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Haiti", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "New Caledonia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Barbados", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -1965,27 +1703,7 @@ let data = [
     { country: "Tanzania", cases: 6, deaths: 0, recovered: 0 },
     { country: "Guyana", cases: 5, deaths: 1, recovered: 0 },
     { country: "Aruba", cases: 5, deaths: 0, recovered: 1 },
-    { country: "Barbados", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Equatorial Guinea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Bahamas", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Gabon", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Kyrgyzstan", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mauritius", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mayotte", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 3, deaths: 0, recovered: 0 },
-    { country: "U.S. Virgin Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Bermuda", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "New Caledonia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Barbados", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -2126,31 +1844,7 @@ let data = [
     { country: "Ethiopia", cases: 6, deaths: 0, recovered: 0 },
     { country: "Mongolia", cases: 6, deaths: 0, recovered: 0 },
     { country: "Seychelles", cases: 6, deaths: 0, recovered: 0 },
-    { country: "Puerto Rico", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Guyana", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Aruba", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Equatorial Guinea", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Gabon", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Kyrgyzstan", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mauritius", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Mayotte", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Tanzania", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Sudan", cases: 2, deaths: 1, recovered: 0 },
-    { country: "Barbados", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Benin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Greenland", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Mauritania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "New Caledonia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "U.S. Virgin Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Zambia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cayman Islands", cases: 1, deaths: 1, recovered: 0 }
+    { country: "Puerto Rico", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -2285,23 +1979,7 @@ let data = [
     { country: "Guam", cases: 5, deaths: 0, recovered: 0 },
     { country: "Mongolia", cases: 5, deaths: 0, recovered: 0 },
     { country: "Puerto Rico", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Trinidad and Tobago", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Ivory Coast", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Kenya", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Seychelles", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Aruba", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 3, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 3, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Gibraltar", cases: 3, deaths: 0, recovered: 2 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Barbados", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Liberia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "U.S. Virgin Islands", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Trinidad and Tobago", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -2435,24 +2113,7 @@ let data = [
     { country: "Honduras", cases: 6, deaths: 0, recovered: 0 },
     { country: "Ethiopia", cases: 5, deaths: 0, recovered: 0 },
     { country: "Puerto Rico", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Rwanda", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Ivory Coast", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cuba", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Trinidad and Tobago", cases: 4, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Gibraltar", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Guam", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Kenya", cases: 3, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Seychelles", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Aruba", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 2, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Rwanda", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -2574,31 +2235,7 @@ let data = [
     { country: "Turkey", cases: 6, deaths: 0, recovered: 0 },
     { country: "Uruguay", cases: 6, deaths: 0, recovered: 0 },
     { country: "Andorra", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Bangladesh", cases: 5, deaths: 0, recovered: 2 },
-    { country: "Guyana", cases: 4, deaths: 1, recovered: 0 },
-    { country: "Ivory Coast", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Cuba", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Ethiopia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Puerto Rico", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Ukraine", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Burkina Faso", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Channel Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Guadeloupe", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Guam", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Honduras", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Kenya", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Monaco", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Aruba", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Curaçao", cases: 2, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Lucia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Seychelles", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Trinidad and Tobago", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Bangladesh", cases: 5, deaths: 0, recovered: 2 }
   ],
   [
     {
@@ -2710,28 +2347,7 @@ let data = [
     { country: "Kazakhstan", cases: 6, deaths: 0, recovered: 0 },
     { country: "Réunion", cases: 6, deaths: 0, recovered: 0 },
     { country: "Turkey", cases: 6, deaths: 0, recovered: 0 },
-    { country: "Bangladesh", cases: 5, deaths: 0, recovered: 2 },
-    { country: "Cuba", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Liechtenstein", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Uruguay", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Ukraine", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Channel Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Guadeloupe", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Honduras", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Puerto Rico", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Monaco", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Aruba", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Burkina Faso", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Ghana", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Namibia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Seychelles", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Trinidad and Tobago", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Venezuela", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Bangladesh", cases: 5, deaths: 0, recovered: 2 }
   ],
   [
     {
@@ -2837,34 +2453,7 @@ let data = [
     { country: "Dominican Republic", cases: 5, deaths: 0, recovered: 0 },
     { country: "New Zealand", cases: 5, deaths: 0, recovered: 0 },
     { country: "Sri Lanka", cases: 5, deaths: 0, recovered: 1 },
-    { country: "Réunion", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Liechtenstein", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Ukraine", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Bangladesh", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Bolivia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Channel Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Cuba", cases: 3, deaths: 0, recovered: 0 },
-    {
-      country: "Faeroe Islands",
-      cases: 3,
-      todayCases: 1,
-      deaths: 0,
-      todayDeaths: 0,
-      recovered: 0,
-      critical: 0
-    },
-    { country: "French Polynesia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Martinique", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Monaco", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Burkina Faso", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Ghana", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Honduras", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Kazakhstan", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Turkey", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Réunion", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -2963,42 +2552,7 @@ let data = [
     { country: "Dominican Republic", cases: 5, deaths: 0, recovered: 0 },
     { country: "New Zealand", cases: 5, deaths: 0, recovered: 0 },
     { country: "Senegal", cases: 5, deaths: 0, recovered: 1 },
-    { country: "Paraguay", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Armenia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Liechtenstein", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Moldova", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Lithuania", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Bangladesh", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Channel Islands", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Cuba", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Martinique", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Sri Lanka", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Bolivia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Burkina Faso", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Faeroe Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Honduras", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Jamaica", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Guyana", cases: 1, deaths: 1, recovered: 0 },
-    { country: "Andorra", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Jordan", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Monaco", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Nepal", cases: 1, deaths: 0, recovered: 1 },
-    { country: "Ukraine", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Ivory Coast", cases: 1, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 1, deaths: 0, recovered: 0 },
-    { country: "French Polynesia", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Gibraltar", cases: 1, deaths: 0, recovered: 1 },
-    { country: "Vatican City", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Mongolia", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Réunion", cases: 1, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 1, deaths: 0, recovered: 0 },
-    { country: "St. Vincent Grenadines", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Togo", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Turkey", cases: 1, deaths: 0, recovered: 0 }
+    { country: "Paraguay", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -3094,40 +2648,7 @@ let data = [
     { country: "Dominican Republic", cases: 5, deaths: 0, recovered: 0 },
     { country: "New Zealand", cases: 5, deaths: 0, recovered: 0 },
     { country: "French Guiana", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Paraguay", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Senegal", cases: 4, deaths: 0, recovered: 1 },
-    { country: "Cambodia", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Lithuania", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Bangladesh", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Martinique", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Moldova", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Sri Lanka", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Bolivia", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Burkina Faso", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Channel Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cyprus", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Faeroe Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Honduras", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Andorra", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Armenia", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Jordan", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Monaco", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Nepal", cases: 1, deaths: 0, recovered: 1 },
-    { country: "Ukraine", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Bhutan", cases: 1, deaths: 0, recovered: 0 },
-    { country: "DRC", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Gibraltar", cases: 1, deaths: 0, recovered: 1 },
-    { country: "Vatican City", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Jamaica", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Liechtenstein", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Mongolia", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Réunion", cases: 1, deaths: 0, recovered: 0 },
-    { country: "St. Barth", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Togo", cases: 1, deaths: 0, recovered: 0 },
-    { country: "Turkey", cases: 1, deaths: 0, recovered: 0 }
+    { country: "Paraguay", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -3218,23 +2739,7 @@ let data = [
     { country: "Bosnia and Herzegovina", cases: 5, deaths: 0, recovered: 0 },
     { country: "French Guiana", cases: 5, deaths: 0, recovered: 0 },
     { country: "Malta", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Serbia", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Senegal", cases: 4, deaths: 0, recovered: 1 },
-    { country: "Bulgaria", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Morocco", cases: 3, deaths: 1, recovered: 0 },
-    { country: "Cambodia", cases: 3, deaths: 0, recovered: 1 },
-    { country: "Bangladesh", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Colombia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Moldova", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Burkina Faso", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Channel Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cyprus", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Faeroe Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Martinique", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Paraguay", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Serbia", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -3318,25 +2823,7 @@ let data = [
     { country: "New Zealand", cases: 5, deaths: 0, recovered: 0 },
     { country: "Tunisia", cases: 5, deaths: 0, recovered: 0 },
     { country: "Bosnia and Herzegovina", cases: 5, deaths: 0, recovered: 0 },
-    { country: "French Guiana", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Afghanistan", cases: 4, deaths: 0, recovered: 0 },
-    { country: "North Macedonia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Senegal", cases: 4, deaths: 0, recovered: 1 },
-    { country: "Bulgaria", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Maldives", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Malta", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Bangladesh", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Colombia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Cambodia", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Morocco", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Nigeria", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Albania", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cyprus", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Faeroe Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Martinique", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Saint Martin", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Serbia", cases: 2, deaths: 0, recovered: 0 }
+    { country: "French Guiana", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -3408,22 +2895,7 @@ let data = [
     { country: "Poland", cases: 6, deaths: 0, recovered: 0 },
     { country: "New Zealand", cases: 5, deaths: 0, recovered: 0 },
     { country: "Chile", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Hungary", cases: 5, deaths: 0, recovered: 0 },
-    { country: "Afghanistan", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Indonesia", cases: 4, deaths: 0, recovered: 0 },
-    { country: "Senegal", cases: 4, deaths: 0, recovered: 1 },
-    { country: "Luxembourg", cases: 3, deaths: 0, recovered: 0 },
-    { country: "North Macedonia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Bosnia and Herzegovina", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Malta", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Slovakia", cases: 3, deaths: 0, recovered: 0 },
-    { country: "Cambodia", cases: 2, deaths: 0, recovered: 1 },
-    { country: "Dominican Republic", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Morocco", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Cameroon", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Faeroe Islands", cases: 2, deaths: 0, recovered: 0 },
-    { country: "Maldives", cases: 2, deaths: 0, recovered: 0 },
-    { country: "South Africa", cases: 2, deaths: 0, recovered: 0 }
+    { country: "Hungary", cases: 5, deaths: 0, recovered: 0 }
   ],
   [
     {
@@ -3464,42 +2936,12 @@ let data = [
       deaths: 3015,
       recovered: 53440
     },
-    {
-      country: "S. Korea",
-      cases: 5766,
-      deaths: 35,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 3089,
-      deaths: 107,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 2922,
-      deaths: 92,
-      recovered: 0
-    },
-    {
-      country: "Germany",
-      cases: 262,
-      deaths: 0,
-      recovered: 0
-    },
-    {
-      country: "France",
-      cases: 282,
-      deaths: 6,
-      recovered: 0
-    },
-    {
-      country: "USA",
-      cases: 129,
-      deaths: 9,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 5766, deaths: 35, recovered: 0 },
+    { country: "Italy", cases: 3089, deaths: 107, recovered: 0 },
+    { country: "Iran", cases: 2922, deaths: 92, recovered: 0 },
+    { country: "Germany", cases: 262, deaths: 0, recovered: 0 },
+    { country: "France", cases: 282, deaths: 6, recovered: 0 },
+    { country: "USA", cases: 129, deaths: 9, recovered: 0 }
   ],
   [
     {
@@ -3509,24 +2951,9 @@ let data = [
       deaths: 2984,
       recovered: 52985
     },
-    {
-      country: "S. Korea",
-      cases: 5328,
-      deaths: 32,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 2502,
-      deaths: 80,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 2336,
-      deaths: 77,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 5328, deaths: 32, recovered: 0 },
+    { country: "Italy", cases: 2502, deaths: 80, recovered: 0 },
+    { country: "Iran", cases: 2336, deaths: 77, recovered: 0 }
   ],
   [
     {
@@ -3536,24 +2963,9 @@ let data = [
       deaths: 2946,
       recovered: 50944
     },
-    {
-      country: "S. Korea",
-      cases: 4812,
-      deaths: 28,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 2036,
-      deaths: 52,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 1501,
-      deaths: 66,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 4812, deaths: 28, recovered: 0 },
+    { country: "Italy", cases: 2036, deaths: 52, recovered: 0 },
+    { country: "Iran", cases: 1501, deaths: 66, recovered: 0 }
   ],
   [
     {
@@ -3563,24 +2975,9 @@ let data = [
       deaths: 2915,
       recovered: 48108
     },
-    {
-      country: "S. Korea",
-      cases: 4212,
-      deaths: 22,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 1689,
-      deaths: 35,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 978,
-      deaths: 54,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 4212, deaths: 22, recovered: 0 },
+    { country: "Italy", cases: 1689, deaths: 35, recovered: 0 },
+    { country: "Iran", cases: 978, deaths: 54, recovered: 0 }
   ],
   [
     {
@@ -3590,24 +2987,9 @@ let data = [
       deaths: 2873,
       recovered: 45122
     },
-    {
-      country: "S. Korea",
-      cases: 3736,
-      deaths: 18,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 1128,
-      deaths: 29,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 593,
-      deaths: 43,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 3736, deaths: 18, recovered: 0 },
+    { country: "Italy", cases: 1128, deaths: 29, recovered: 0 },
+    { country: "Iran", cases: 593, deaths: 43, recovered: 0 }
   ],
   [
     {
@@ -3617,24 +2999,9 @@ let data = [
       deaths: 2838,
       recovered: 42330
     },
-    {
-      country: "S. Korea",
-      cases: 3150,
-      deaths: 17,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 888,
-      deaths: 21,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 388,
-      deaths: 34,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 3150, deaths: 17, recovered: 0 },
+    { country: "Italy", cases: 888, deaths: 21, recovered: 0 },
+    { country: "Iran", cases: 388, deaths: 34, recovered: 0 }
   ],
   [
     {
@@ -3644,24 +3011,9 @@ let data = [
       deaths: 2791,
       recovered: 39430
     },
-    {
-      country: "S. Korea",
-      cases: 2337,
-      deaths: 13,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 650,
-      deaths: 17,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 245,
-      deaths: 26,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 2337, deaths: 13, recovered: 0 },
+    { country: "Italy", cases: 650, deaths: 17, recovered: 0 },
+    { country: "Iran", cases: 245, deaths: 26, recovered: 0 }
   ],
   [
     {
@@ -3671,24 +3023,9 @@ let data = [
       deaths: 2747,
       recovered: 36520
     },
-    {
-      country: "S. Korea",
-      cases: 1766,
-      deaths: 13,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 400,
-      deaths: 12,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 141,
-      deaths: 22,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 1766, deaths: 13, recovered: 0 },
+    { country: "Italy", cases: 400, deaths: 12, recovered: 0 },
+    { country: "Iran", cases: 141, deaths: 22, recovered: 0 }
   ],
   [
     {
@@ -3698,24 +3035,9 @@ let data = [
       deaths: 2718,
       recovered: 32805
     },
-    {
-      country: "S. Korea",
-      cases: 1261,
-      deaths: 12,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 322,
-      deaths: 11,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 95,
-      deaths: 15,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 1261, deaths: 12, recovered: 0 },
+    { country: "Italy", cases: 322, deaths: 11, recovered: 0 },
+    { country: "Iran", cases: 95, deaths: 15, recovered: 0 }
   ],
   [
     {
@@ -3725,24 +3047,9 @@ let data = [
       deaths: 2666,
       recovered: 30051
     },
-    {
-      country: "S. Korea",
-      cases: 977,
-      deaths: 10,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 229,
-      deaths: 6,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 61,
-      deaths: 12,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 977, deaths: 10, recovered: 0 },
+    { country: "Italy", cases: 229, deaths: 6, recovered: 0 },
+    { country: "Iran", cases: 61, deaths: 12, recovered: 0 }
   ],
   [
     {
@@ -3752,24 +3059,9 @@ let data = [
       deaths: 2595,
       recovered: 27446
     },
-    {
-      country: "S. Korea",
-      cases: 763,
-      deaths: 7,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 124,
-      deaths: 2,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 43,
-      deaths: 8,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 763, deaths: 7, recovered: 0 },
+    { country: "Italy", cases: 124, deaths: 2, recovered: 0 },
+    { country: "Iran", cases: 43, deaths: 8, recovered: 0 }
   ],
   [
     {
@@ -3779,24 +3071,9 @@ let data = [
       deaths: 2445,
       recovered: 24991
     },
-    {
-      country: "S. Korea",
-      cases: 602,
-      deaths: 5,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 76,
-      deaths: 2,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 28,
-      deaths: 8,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 602, deaths: 5, recovered: 0 },
+    { country: "Italy", cases: 76, deaths: 2, recovered: 0 },
+    { country: "Iran", cases: 28, deaths: 8, recovered: 0 }
   ],
   [
     {
@@ -3806,24 +3083,9 @@ let data = [
       deaths: 2348,
       recovered: 22650
     },
-    {
-      country: "S. Korea",
-      cases: 346,
-      deaths: 2,
-      recovered: 0
-    },
-    {
-      country: "Italy",
-      cases: 9,
-      deaths: 0,
-      recovered: 0
-    },
-    {
-      country: "Iran",
-      cases: 18,
-      deaths: 4,
-      recovered: 0
-    }
+    { country: "S. Korea", cases: 346, deaths: 2, recovered: 0 },
+    { country: "Italy", cases: 9, deaths: 0, recovered: 0 },
+    { country: "Iran", cases: 18, deaths: 4, recovered: 0 }
   ],
   [
     {
@@ -4182,10 +3444,7 @@ document.getElementById("totalDeaths").appendChild(worldwideDeaths)
 
 let zoomSlider = document.getElementById("zoomSlider")
 let dateSlider = document.getElementById("dateSlider")
-
-// slider
 let actuator = Math.floor((1 / (zoomSlider.value * 5)) * totalCases)
-
 let svgHeight = (1 / actuator) * 260000
 
 drawVisualization()
@@ -4193,31 +3452,30 @@ drawVisualization()
 // Zoom Slider
 
 zoomSlider.oninput = function() {
-  // if (this.value % 10 === 0) {
+  // if (this.value % 2 === 0) {
   //   console.log(
   //     `A ${actuator} | H ${svgHeight} | D ${dateSlider.value} | Z ${zoomSlider.value}`
   //   )
   // }
 
-  actuator = Math.floor((1 / (this.value * 5)) * totalCases) + 0.1
+  actuator =
+    2500 - Math.floor(zoomSlider.value * 8 - dateSlider.value * 3.3) + 0.01
 
   d3.select("svg").remove()
-
-  if (date.value < 100) {
-    actuator = Math.floor(actuator * 2 + dateSlider.value)
-  }
 
   svgHeight = Math.floor((1 / actuator) * totalCases * 2)
 
   drawVisualization()
-
-  if (date.value > 50) {
-    window.scrollTo(0, Math.floor(document.body.scrollHeight / 2) - 100)
-  }
 }
 
 // Date Slider
 dateSlider.oninput = function() {
+  // if (this.value % 2 === 0) {
+  //   console.log(
+  //     `A ${actuator} | H ${svgHeight} | D ${dateSlider.value} | Z ${zoomSlider.value}`
+  //   )
+  // }
+
   let maxRangeValue = 150 // (from line 83 in index.html)
   let baseDivisor = (maxRangeValue + 1) / data.length
   let slidingScale = 15
@@ -4305,10 +3563,10 @@ function drawVisualization() {
       cum += d + d
       casesCumData.push(cum - d)
       radData.push(d)
-      return cum - d
+      return (cum - d).toFixed(3)
     })
     .attr("r", function(d) {
-      return d
+      return d.toFixed(3)
     })
     .attr("fill", "steelblue")
 
@@ -4317,10 +3575,10 @@ function drawVisualization() {
     .append("circle")
     .attr("cx", 0)
     .attr("cy", (d, i) => {
-      return casesCumData[i]
+      return casesCumData[i].toFixed(3)
     })
     .attr("r", function(d) {
-      return d
+      return d.toFixed(3)
     })
     .attr("fill", "rgb(255, 196, 0)")
 
@@ -4329,25 +3587,29 @@ function drawVisualization() {
     .append("circle")
     .attr("cx", 0)
     .attr("cy", (d, i) => {
-      return casesCumData[i]
+      return casesCumData[i].toFixed(3)
     })
     .attr("r", function(d) {
-      return d
+      return d.toFixed(3)
     })
     .attr("fill", "tomato")
 
   // Country labels
   nameLabels
     .enter()
+    // .append("a")
+    // .attr("xlink:href", d => {
+    //   return `/countries/${d}`
+    // })
     .append("text")
     .attr("x", (d, i) => {
-      return radData[i] + 2
+      return (radData[i] + 2).toFixed(1)
     })
     .attr("y", (d, i) => {
       if (i < 8) {
-        return casesCumData[i] + radData[i] / (16 - i - 6)
+        return (casesCumData[i] + radData[i] / (16 - i - 6)).toFixed(1)
       } else {
-        return casesCumData[i] + radData[i] / 2
+        return (casesCumData[i] + radData[i] / 2).toFixed(1)
       }
     })
     .text(function(d, i) {
@@ -4356,26 +3618,32 @@ function drawVisualization() {
     .attr("font-family", countryNameFont)
     .attr("font-size", (d, i) => {
       if (i === 0) {
-        return radData[i] / 2.6
+        return (radData[i] / 2.6).toFixed(1)
       } else if (i < 5) {
-        return radData[i] / 2.2
+        return (radData[i] / 2.2).toFixed(1)
       } else if (i < 7) {
-        return radData[i] / 1.8
+        return (radData[i] / 1.8).toFixed(1)
       } else {
-        return radData[i]
+        return radData[i].toFixed(1)
       }
     })
     .attr("dominant-baseline", "ideographic")
     .attr("dy", (d, i) => {
       if (isSafari) {
         if (i === 0) {
-          return radData[i] * -0.05
+          return (radData[i] * -0.05).toFixed(1)
         } else if (i < 7) {
-          return radData[i] * -0.2
+          return (radData[i] * -0.2).toFixed(1)
         } else {
-          return radData[i] * -0.6
+          return (radData[i] * -0.6).toFixed(1)
         }
       }
+    })
+    .attr("id", function(d, i) {
+      return "country_" + i
+    })
+    .attr("class", function(d, i) {
+      return "countryLink"
     })
 
   // Cases, recoveries and deaths
@@ -4406,19 +3674,19 @@ function drawVisualization() {
     .attr("font-family", countryDataFont)
     .attr("font-size", (d, i) => {
       if (i == 0) {
-        return radData[i] / 6
+        return (radData[i] / 6).toFixed(1)
       } else if (i < 3) {
-        return radData[i] / 4.8
+        return (radData[i] / 4.8).toFixed(1)
       } else if (i < 4) {
-        return radData[i] / 4.2
+        return (radData[i] / 4.2).toFixed(1)
       } else if (i < 5) {
-        return radData[i] / 3
+        return (radData[i] / 3).toFixed(1)
       } else if (i < 7) {
-        return radData[i] / 2.5
+        return (radData[i] / 2.5).toFixed(1)
       } else if (i < 9) {
-        return radData[i] / 2
+        return (radData[i] / 2).toFixed(1)
       } else {
-        return radData[i] / 1.2
+        return (radData[i] / 1.2).toFixed(1)
       }
     })
     .attr("x", (d, i) => {
