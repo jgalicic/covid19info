@@ -4463,11 +4463,11 @@ function drawVisualization() {
     .attr("font-family", countryNameFont)
     .attr("font-size", (d, i) => {
       if (i === 0) {
-        return (radData[i] / 2.6).toFixed(1)
+        return (radData[i] / 2.5).toFixed(1)
       } else if (i < 5) {
-        return (radData[i] / 2.2).toFixed(1)
+        return (radData[i] / 1.5).toFixed(1)
       } else if (i < 7) {
-        return (radData[i] / 1.8).toFixed(1)
+        return (radData[i] / 1.2).toFixed(1)
       } else {
         return radData[i].toFixed(1)
       }
@@ -4478,7 +4478,7 @@ function drawVisualization() {
         if (i === 0) {
           return (radData[i] * -0.15).toFixed(1)
         } else if (i < 7) {
-          return (radData[i] * -0.2).toFixed(1)
+          return (radData[i] * -0.35).toFixed(1)
         } else {
           return (radData[i] * -0.6).toFixed(1)
         }
@@ -4521,15 +4521,15 @@ function drawVisualization() {
       if (i == 0) {
         return (radData[i] / 6).toFixed(1)
       } else if (i < 3) {
-        return (radData[i] / 4.8).toFixed(1)
+        return (radData[i] / 3.5).toFixed(1)
       } else if (i < 4) {
-        return (radData[i] / 4.2).toFixed(1)
-      } else if (i < 5) {
-        return (radData[i] / 3).toFixed(1)
-      } else if (i < 7) {
         return (radData[i] / 2.5).toFixed(1)
-      } else if (i < 9) {
+      } else if (i < 5) {
+        return (radData[i] / 2.5).toFixed(1)
+      } else if (i < 7) {
         return (radData[i] / 2).toFixed(1)
+      } else if (i < 9) {
+        return (radData[i] / 1.4).toFixed(1)
       } else {
         return (radData[i] / 1.2).toFixed(1)
       }
